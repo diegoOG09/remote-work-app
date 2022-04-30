@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![remote-work-app](https://user-images.githubusercontent.com/63070877/166123349-ab95cd20-732b-4425-9a03-f7985603eb5f.png)
+![Screen Shot 2022-04-30 at 16 47 16](https://user-images.githubusercontent.com/63070877/166123712-bc062798-9c39-4b88-938c-5c32c597d1b5.png)
 ![Screen Shot 2022-04-30 at 16 45 48](https://user-images.githubusercontent.com/63070877/166123678-8b6c46c8-8ada-4a42-9712-803327e822cf.png)
 
 
