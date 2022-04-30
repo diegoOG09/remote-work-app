@@ -8,13 +8,10 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -59,6 +56,3 @@ I want to continue improving my responsive development skills. For that reason i
 ## Author
 
 - Website - [Diego Salinas](https://diegoog09.github.io/portafolio/)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
