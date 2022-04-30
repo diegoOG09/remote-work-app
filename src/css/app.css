@@ -1,0 +1,347 @@
+h1,
+p {
+  margin: 0;
+}
+
+html {
+  height: 100vh;
+  font-family: "Epilogue", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  padding: 2rem 2.5rem;
+  margin-top: 2rem;
+}
+
+.container #header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: dimgray;
+  margin-bottom: 6rem;
+}
+
+.container #header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 4.5rem;
+}
+
+.container #header .logo img {
+  margin-top: 0.3rem;
+}
+
+.container #header .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 46%;
+}
+
+.container #header .links a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: dimgray;
+}
+
+.container #header .links a:hover {
+  color: #141414;
+}
+
+.container #header .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.container #header .buttons a {
+  text-decoration: none;
+  color: dimgray;
+}
+
+.container #header .buttons #registerBtn {
+  border: 1px solid #141414;
+  border-radius: 10px;
+  padding: 0.7rem 1.3rem;
+}
+
+#main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#main .parent-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+}
+
+#main .parent-grid .grid-1 {
+  margin-top: 4rem;
+}
+
+#main .parent-grid .grid-1 .main-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3rem;
+}
+
+#main .parent-grid .grid-1 .main-info h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  color: #141414;
+}
+
+#main .parent-grid .grid-1 .main-info .main-text {
+  line-height: 1.5rem;
+  color: dimgray;
+  font-size: 1.1rem;
+  word-spacing: 2px;
+}
+
+#main .parent-grid .grid-1 .main-info .main-btn {
+  width: 14%;
+  padding: 1rem 1.5rem;
+  background-color: #141414;
+  border-radius: 18px;
+  margin-bottom: 7rem;
+  cursor: pointer;
+}
+
+#main .parent-grid .grid-1 .main-info .main-btn a {
+  color: #fafafa;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#main .parent-grid .grid-1 .main-info .main-btn:hover {
+  border: 1px solid #141414;
+  background-color: #fafafa;
+}
+
+#main .parent-grid .grid-1 .main-info .main-btn:hover a {
+  color: #141414;
+}
+
+#main .parent-grid .grid-1 .main-brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2.5rem;
+}
+
+#main .parent-grid .grid-2 img {
+  width: 100%;
+}
+
+.features-menu {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: absolute;
+  top: 12%;
+  left: 17%;
+  padding: 0.7rem 2.5rem 0.5rem 1.5rem;
+  border-radius: 10px;
+}
+
+.features-menu a {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 28% 80%;
+      grid-template-columns: 28% 80%;
+  margin-bottom: 0.7rem;
+  color: #141414;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.features-menu a img {
+  margin-right: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.company-menu {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: absolute;
+  top: 12%;
+  left: 28%;
+  padding: 0.7rem 2.5rem 0.5rem 1.5rem;
+  border-radius: 10px;
+}
+
+.company-menu a {
+  margin-bottom: 0.7rem;
+  color: #141414;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#toggle {
+  cursor: pointer;
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    padding: .5rem 1rem;
+    margin-top: 0;
+  }
+  .container #header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  .container #header .logo {
+    margin-right: 0;
+  }
+  .container #header .links {
+    display: none;
+  }
+  .container #header .buttons {
+    display: none;
+  }
+  #main {
+    width: 100%;
+  }
+  #main .parent-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #main .parent-grid .grid-1 {
+    margin-top: 4rem;
+  }
+  #main .parent-grid .grid-1 .main-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1.5rem;
+  }
+  #main .parent-grid .grid-1 .main-info h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #141414;
+  }
+  #main .parent-grid .grid-1 .main-info h1 br {
+    display: none;
+  }
+  #main .parent-grid .grid-1 .main-info .main-text {
+    line-height: 1.5rem;
+    color: dimgray;
+    font-size: 1.1rem;
+    word-spacing: 2px;
+    text-align: center;
+  }
+  #main .parent-grid .grid-1 .main-info .main-text br {
+    display: none;
+  }
+  #main .parent-grid .grid-1 .main-info .main-btn {
+    display: block;
+    margin: 0 auto;
+    width: 27.5%;
+    padding: 1rem 1.5rem;
+    background-color: #141414;
+    border-radius: 18px;
+    margin-bottom: 3rem;
+    cursor: pointer;
+  }
+  #main .parent-grid .grid-1 .main-info .main-btn a {
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  #main .parent-grid .grid-1 .main-info .main-btn:hover {
+    border: 1px solid #141414;
+    background-color: #fafafa;
+  }
+  #main .parent-grid .grid-1 .main-info .main-btn:hover a {
+    color: #141414;
+  }
+  #main .parent-grid .grid-1 .main-brands {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2.5rem;
+  }
+  #main .parent-grid .grid-1 .main-brands img {
+    width: 50%;
+  }
+  #main .parent-grid .grid-2 img {
+    width: 100%;
+  }
+  #toggle {
+    display: block;
+  }
+}
+/*# sourceMappingURL=app.css.map */
